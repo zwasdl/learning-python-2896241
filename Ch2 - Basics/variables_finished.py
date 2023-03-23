@@ -37,6 +37,7 @@ print(mylist[::-1])
 print(mydict["one"]) 
 
 # ERROR: variables of different types cannot be combined
+# Python is strongly typed language
 #print ("string type " + 123)
 print ("string type " + str(123))
 
@@ -44,6 +45,8 @@ print ("string type " + str(123))
 def someFunction():
     #global mystr
     mystr = "def"
+    # newstr=mystr
+    # newstr="efg"
     print (mystr)
 
 someFunction()
